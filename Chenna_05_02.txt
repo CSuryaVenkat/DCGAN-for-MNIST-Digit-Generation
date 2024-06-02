@@ -1,0 +1,18 @@
+# Chenna, Surya Venkat
+# 1002_079_753
+# 2023_05_01
+# Assignment_05_01
+
+!py.test --verbose Assignment_05_tests.py
+============================= test session starts ==============================
+platform linux -- Python 3.10.11, pytest-7.2.2, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /content
+plugins: anyio-3.6.2
+collected 3 items                                                              
+
+Assignment_05_tests.py::test_generator PASSED                            [ 33%]
+Assignment_05_tests.py::test_discriminator PASSED                        [ 66%]
+Assignment_05_tests.py::test_dcgan_train_step PASSED                     [100%]
+
+============================== 3 passed in 7.76s ===============================
